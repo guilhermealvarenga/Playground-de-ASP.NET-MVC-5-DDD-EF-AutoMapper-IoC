@@ -1,4 +1,5 @@
 ﻿using ProjetoModeloDDD.Domain.Entities;
+using ProjetoModeloDDD.Infra.Data.EntityConfig;
 using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -31,6 +32,8 @@ namespace ProjetoModeloDDD.Infra.Data.Context
 
             modelBuilder.Properties<string>()
                 .Configure(p => p.HasMaxLength(100));
+
+            modelBuilder.Configurations.Add(new ClienteConfiguration());
         }
 
         public override int SaveChanges()
