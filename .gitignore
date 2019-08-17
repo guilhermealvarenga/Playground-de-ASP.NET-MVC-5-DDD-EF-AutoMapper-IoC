@@ -18,3 +18,4 @@
 /ProjetoModeloDDD/ProjetoModeloDDD.MVC/App_Data/ProjetoModeloDB.ldf
 /ProjetoModeloDDD/ProjetoModeloDDD.MVC/App_Data/ProjetoModeloDB.mdf
 *.ldf
+/ProjetoModeloDDD/ProjetoModeloDDD.Application/bin/Debug
