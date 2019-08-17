@@ -47,10 +47,10 @@
 * Services.
 * Factories.
 
-Montando uma aplicação utilizando ASP.NET MVC e aplicando DDD para guiar o desenvolvimento, utilizar ORM's, Repositórios, IoC, mapear as Entidades de Domínio com as ViewModels e entre outros patterns.
+Montando uma aplicação utilizando ASP.NET MVC e aplicando DDD para guiar o desenvolvimento, com ORM's, Repositórios, IoC, mapeando as Entidades de Domínio com as ViewModels e entre outros patterns.  
 A aplicação será:
 * Responsável (por isolar todas as dependências, cada coisa reponder por si própria, não misturar os assuntos). 
 * Escalável. 
 * Testável. 
-* Reutilizável
+* Reutilizável  
 A somatória destes pontos torna a manutenção da aplicação muito mais fácil e tranquila.
