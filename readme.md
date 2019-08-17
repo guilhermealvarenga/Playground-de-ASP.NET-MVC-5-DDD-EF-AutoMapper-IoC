@@ -1,44 +1,44 @@
-# Playground de ASP.NET MVC 5 + DDD + EF + AutoMapper + IoC #
+# Playground de ASP.NET MVC + DDD + EF + AutoMapper + IoC #
 
 [Tutorial - Eduardo Pires](https://www.eduardopires.net.br/2014/10/tutorial-asp-net-mvc-5-ddd-ef-automapper-ioc-dicas-e-truques/)
 
-### Conteúdo abordado no tutorial
+### ConteÃºdo abordado no tutorial
 
-* Criar uma solução padrão DDD
-* Separar a aplicação em camadas
-* Entidades de Domínio
-* Classes de Serviço
+* Criar uma soluÃ§Ã£o padrÃ£o DDD
+* Separar a aplicaÃ§Ã£o em camadas
+* Entidades de DomÃ­nio
+* Classes de ServiÃ§o
 * Criar Contratos (Interfaces)
-* Repositório Genérico
-* Repositório Especializado
+* RepositÃ³rio GenÃ©rico
+* RepositÃ³rio Especializado
 * Criar um Contexto do Entity Framework
 * Trabalhar com Migrations
-* Criar novas convenções do Entity Framework
-* Remover algumas convenções do Entity Framework
-* Sobrescrever o método SaveChanges para persistência de dados
+* Criar novas convenÃ§Ãµes do Entity Framework
+* Remover algumas convenÃ§Ãµes do Entity Framework
+* Sobrescrever o mÃ©todo SaveChanges para persistÃªncia de dados
 * Programar com CodeFirst
 * Utilizar FluentAPI para modelar tabelas
 * Criar Relacionamentos entre Entidades e refletindo nas tabelas do banco de dados.
 * Criar e utilizar a camada de Application
-* Trabalhar com classes genéricas de Entidades
-* Abstrair camadas com Injeção de Dependência (IoC)
+* Trabalhar com classes genÃ©ricas de Entidades
+* Abstrair camadas com InjeÃ§Ã£o de DependÃªncia (IoC)
 * Implementar o Ninject como container de IoC (DI)
 * Utilizar ViewModels
-* Utilizar DataAnnotations para validação de formulários
-* Mapear ViewModels x Entidade de Domínio com AutoMapper
-* Muitas dicas para acelerar sua produção
+* Utilizar DataAnnotations para validaÃ§Ã£o de formulÃ¡rios
+* Mapear ViewModels x Entidade de DomÃ­nio com AutoMapper
+* Muitas dicas para acelerar sua produÃ§Ã£o
 
 
 ### Modelo de Arquitetura MVC
-* ASP.NET MVC é apenas camada de apresentação.
-* O padrão MVC visa apenas a separação de responsabilidades e nada mais.
+* ASP.NET MVC Ã© apenas camada de apresentaÃ§Ã£o.
+* O padrÃ£o MVC visa apenas a separaÃ§Ã£o de responsabilidades e nada mais.
 
 ### DDD - Domain Driven Design
 * Uma abordagem de design.
-* Complexa (no início).
-* Desenvolvimento guiado pelo Domínio.
+* Complexa (no inÃ­cio).
+* Desenvolvimento guiado pelo DomÃ­nio.
 * Isolamento de Responsabilidades.
-* Abstração de Camadas.
+* AbstraÃ§Ã£o de Camadas.
 
 ### Domain Layer
 * Entidades.
@@ -47,11 +47,11 @@
 * Services.
 * Factories.
 
-Montando uma aplicação utilizando ASP.NET MVC e aplicando DDD para guiar o desenvolvimento, com ORM's, Repositórios, IoC, mapeando as Entidades de Domínio com as ViewModels e entre outros patterns.  
-A aplicação será:
-* Responsável (por isolar todas as dependências, cada coisa reponder por si própria, não misturar os assuntos). 
-* Escalável. 
-* Testável. 
-* Reutilizável  
+Montando uma aplicaÃ§Ã£o utilizando ASP.NET MVC e aplicando DDD para guiar o desenvolvimento, com ORM's, RepositÃ³rios, IoC, mapeando as Entidades de DomÃ­nio com as ViewModels e entre outros patterns.  
+A aplicaÃ§Ã£o serÃ¡:
+* ResponsÃ¡vel (por isolar todas as dependÃªncias, cada coisa reponder por si prÃ³pria, nÃ£o misturar os assuntos). 
+* EscalÃ¡vel. 
+* TestÃ¡vel. 
+* ReutilizÃ¡vel  
 
-E a somatória destes pontos torna a manutenção da aplicação muito mais fácil e tranquila.
+E a somatÃ³ria destes pontos torna a manutenÃ§Ã£o da aplicaÃ§Ã£o muito mais fÃ¡cil e tranquila.
