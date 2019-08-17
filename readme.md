@@ -53,4 +53,5 @@ A aplicação será:
 * Escalável. 
 * Testável. 
 * Reutilizável  
-A somatória destes pontos torna a manutenção da aplicação muito mais fácil e tranquila.
+
+E a somatória destes pontos torna a manutenção da aplicação muito mais fácil e tranquila.
