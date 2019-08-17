@@ -3,3 +3,17 @@
 ################################################################################
 
 /.vs
+/ProjetoModeloDDD/.vs/ProjetoModeloDDD/v16
+/ProjetoModeloDDD/.vs/ProjetoModeloDDD/v15
+/ProjetoModeloDDD/.vs
+/ProjetoModeloDDD/ProjetoModeloDDD.Application/obj/Debug
+/ProjetoModeloDDD/ProjetoModeloDDD.Domain/bin/Debug
+/ProjetoModeloDDD/ProjetoModeloDDD.Domain/obj/Debug
+/ProjetoModeloDDD/ProjetoModeloDDD.Infra/obj/Debug
+/ProjetoModeloDDD/ProjetoModeloDDD.Infra.Data/bin/Debug
+/ProjetoModeloDDD/ProjetoModeloDDD.Infra.Data/obj/Debug
+/ProjetoModeloDDD/ProjetoModeloDDD.MVC/bin
+/ProjetoModeloDDD/ProjetoModeloDDD.MVC/obj/Debug
+/ProjetoModeloDDD/packages
+/ProjetoModeloDDD/ProjetoModeloDDD.MVC/App_Data/ProjetoModeloDB.ldf
+/ProjetoModeloDDD/ProjetoModeloDDD.MVC/App_Data/ProjetoModeloDB.mdf
