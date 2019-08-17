@@ -2,7 +2,7 @@
 
 [Tutorial - Eduardo Pires](https://www.eduardopires.net.br/2014/10/tutorial-asp-net-mvc-5-ddd-ef-automapper-ioc-dicas-e-truques/)
 
-###Conteúdo abordado no tutorial###
+### Conteúdo abordado no tutorial
 
 * Criar uma solução padrão DDD
 * Separar a aplicação em camadas
@@ -29,18 +29,18 @@
 * Muitas dicas para acelerar sua produção
 
 
-###Modelo de Arquitetura MVC###
+### Modelo de Arquitetura MVC
 * ASP.NET MVC é apenas camada de apresentação.
 * O padrão MVC visa apenas a separação de responsabilidades e nada mais.
 
-###DDD - Domain Driven Design###
+### DDD - Domain Driven Design
 * Uma abordagem de design.
 * Complexa (no início).
 * Desenvolvimento guiado pelo Domínio.
 * Isolamento de Responsabilidades.
 * Abstração de Camadas.
 
-###Domain Layer###
+### Domain Layer
 * Entidades.
 * Objetos de Valor.
 * Contratos (Interfaces).
