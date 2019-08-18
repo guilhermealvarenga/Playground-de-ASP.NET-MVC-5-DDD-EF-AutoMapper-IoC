@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoModeloDDD.Domain.Services
 {
-    class ProdutoService : ServiceBase<Produto>, IProdutoService
+    public class ProdutoService : ServiceBase<Produto>, IProdutoService
     {
         private readonly IProdutoRepository _produtoRepository;
 
