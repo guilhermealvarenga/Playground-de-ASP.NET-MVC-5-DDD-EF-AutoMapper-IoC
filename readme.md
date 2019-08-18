@@ -1,4 +1,4 @@
-# Playground de ASP.NET MVC + DDD + EF + AutoMapper + IoC #
+# Playground de ASP.NET MVC 5 + DDD + EF + AutoMapper + IoC #
 
 [Tutorial - Eduardo Pires](https://www.eduardopires.net.br/2014/10/tutorial-asp-net-mvc-5-ddd-ef-automapper-ioc-dicas-e-truques/)
 
