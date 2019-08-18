@@ -12,7 +12,9 @@ namespace ProjetoModeloDDD.Infra.Data.Context
         public ProjetoModeloContext()
             : base("ProjetoModeloDDD")
         {
-
+            // HACK: Garante que o Entity Framework SQL Provider seja copiado para o diretório de saída.
+            // Server para contornar o problema  "Provider not loaded" error.
+            var ensureDLLIsCopied = System.Data.Entity.SqlServer.SqlProviderServices.Instance;
         }
 
         public DbSet<Cliente> Clientes { get; set; }
